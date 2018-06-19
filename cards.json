@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "name": "Rostigt Svärd",
+      "type": "library",
+      "nr": "01",
+      "text": "[h Jag har ett [u Rostigt Svärd] som hugger fiender och ger mig [s [n +1]] när jag [v slåss] mot monster och föräldrar...]"
+    },
+    {
+      "name": "Möglig Sköld",
+      "type": "library",
+      "nr": "04",
+      "text": "[h Jag har en [u Möglig Sköld] av trä som ger mig [s [n +3]] när jag [v skyddar] mig från faror.]"
+    },
+    {
+      "name": "Truckerkeps",
+      "type": "library",
+      "nr": "02",
+      "text": "[h Alla säger att jag måste ta av mig min [u Truckerkeps].]"
+    },
+    {
+      "name": "D20",
+      "type": "library",
+      "nr": "20",
+      "text": "[h En helt vanlig tjugosidig tärning, också kallad [u D20].] \n Används i rollspel som detta..."
+    },
+    {
+      "name": "Elektroniskt Ägg",
+      "type": "library",
+      "nr": "03",
+      "text": "[h Jag har ett mystiskt utomjordiskt objekt som spelar upp konstiga ljud.]] \n Det står [u Tamagotchi] på sidan."
+    }
+  ]
+}
