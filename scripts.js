@@ -34,16 +34,24 @@ function addCard (id) {
 				let newHtml = ('<div class="card ' + types + '">' + info + '<span class="text">' + text + '</span></div>');
 				$('#cards').append( newHtml );
 		}
-
+		if (card.type == "map") {
+				let newHtml = ('<div class="card ' + types + '"><h1 class="info">' + card.name +'</h1><span class="text">' + text + '</span></div>');
+				$('#cards').append( newHtml );
+		}
 
     replaceInlineSymbol(/\[u /g,'<span class="underlined">');
-		replaceInlineSymbol(/\[s /g,'<span class="symbol">');
+		replaceInlineSymbol(/\[S /g,'<span class="symbol smidighet">');
+		replaceInlineSymbol(/\[K /g,'<span class="symbol kraft">');
+		replaceInlineSymbol(/\[U /g,'<span class="symbol kunskap">');
+		replaceInlineSymbol(/\[C /g,'<span class="symbol charm">');
+		replaceInlineSymbol(/\[L /g,'<span class="symbol lib">');
 		replaceInlineSymbol(/\[v /g,'<span class="verb">');
 		replaceInlineSymbol(/\[n /g,'<span class="number">');
 		replaceInlineSymbol(/\[h /g,'<span class="heading">');
+		replaceInlineSymbol(/\[p /g,'<span class="path">');
 		replaceInlineSymbol(/\]/g,'</span>');
-	  replaceInlineSymbol(/\(/g,'<i>(');
-	  replaceInlineSymbol(/\)/g,')</i>');
+	  // replaceInlineSymbol(/\(/g,'(');
+	  // replaceInlineSymbol(/\)/g,')');
 	  replaceInlineSymbol(/\undefined/g,'');
 	  replaceInlineSymbol(/\n/g,'<hr>');
 

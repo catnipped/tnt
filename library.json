@@ -1,0 +1,53 @@
+{
+  "cards": [
+    {
+      "name": "Gast",
+      "type": "library",
+      "nr": "01",
+      "subtype": "monster",
+      "text": "Du kan antingen [S [v undvika ][n 8]] den eller [U [v trolla bort ] [n 12]] den. Om du misslyckas blir du [L Skrämd]"
+    },
+    {
+      "name": "Benrangel",
+      "type": "library",
+      "nr": "02",
+      "subtype": "monster",
+      "text": "Du kan antingen [K [v putta] [n 8]] den eller [K [v slåss] [n 12]] mot den. \n Om du slåss och lyckas får du monstrets vapen:  [L Rostigt svärd]"
+    },
+    {
+      "name": "Jättespindel",
+      "type": "library",
+      "nr": "03",
+      "subtype": "monster",
+      "text": "Du är fast i spindelns nät! Du måste [K [v bryta] 5] dig loss för att fortsätta. \n Sen kan du  [K [v slåss] 10] mot spindeln eller [S [v springa ] 10] ifrån den."
+    },
+    {
+      "name": "Hjärnruskaren",
+      "type": "library",
+      "subtype": "legendarisk",
+      "nr": "99",
+      "text": "Denna mardrömsaktiga varelse försöker suga ut hjärnan på dig. \n [K 20] / [S 20] / [U 20] / [C 20] för att besegra den. \n Om du klarar det är spelet slut."
+    },
+    {
+      "name": "Rostigt Svärd",
+      "type": "library",
+      "subtype": "vapen",
+      "nr": "20",
+      "text": "[h Jag har ett görtungt Rostigt Svärd som ger mig [K [v slåss] [n +3]]]"
+    },
+    {
+      "name": "Skrämd",
+      "type": "library",
+      "subtype": "status",
+      "nr": "50",
+      "text": "[h Min karaktär har [C [n -3]] när jag slår tärning.]\n (Ta bort om jag klarar ett slag.)"
+    },
+    {
+      "name": "Telefonkiosk",
+      "type": "library",
+      "subtype": "status",
+      "nr": "50",
+      "text": "Mitt i ingenstans, en fungerande telefonkiosk!\n En spelare kan [C [v ringa ] [n 20]] på hjälp. Om den lyckas får den tag i 112 och spelet är slut, annars förlorar den 3 popularitet."
+    }
+  ]
+}

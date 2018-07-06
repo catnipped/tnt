@@ -1,34 +1,46 @@
 {
   "cards": [
     {
-      "name": "Rostigt Svärd",
-      "type": "library",
-      "nr": "01",
-      "text": "[h Jag har ett [u Rostigt Svärd] som hugger fiender och ger mig [s [n +1]] när jag [v slåss] mot monster och föräldrar...]"
+      "name": "Skogsstigen (a)",
+      "type": "map",
+      "subtype": "karta",
+      "nr": "1",
+      "text": "Ni promenerar längs med en lång stig. Längre ner för stigen ser något kommer hasande. Ni kan antingen [S [v gömma ] [n 8]] er i buskarna eller möta den. Om ni lyckas gömma er, gå till [p [n 1]] annars gå till [p [n 2]]\n [p [n 1]]: Möt ett [L Benrangel], om ni besegrar det utforska mot B eller D.\n [p [n 2]]: Ni pustar ut medan ett monster hasar förbi. Ni kan utforska mot A eller C."
     },
     {
-      "name": "Möglig Sköld",
-      "type": "library",
-      "nr": "04",
-      "text": "[h Jag har en [u Möglig Sköld] av trä som ger mig [s [n +3]] när jag [v skyddar] mig från faror.]"
+      "name": "Skogsstigen (b)",
+      "type": "map",
+      "subtype": "karta",
+      "nr": "2",
+      "text": "Ni promenerar längs med en lång stig. [U [v navigera] [n 10]] för att utforska A och C, annars, utforska B och D."
     },
     {
-      "name": "Truckerkeps",
-      "type": "library",
-      "nr": "02",
-      "text": "[h Alla säger att jag måste ta av mig min [u Truckerkeps].]"
+      "name": "Våtmarker",
+      "type": "map",
+      "subtype": "karta",
+      "nr": "1",
+      "text": "Ni står framför en stor våtmark där någon satt ut plankor mellan små öar som ni kan ta er genom. Ni kan utforska vilken riktning ni vill om ni klarar att [U [v navigera ] [n 7]] området och [S [v balansera ][n 12]] på plankorna."
     },
     {
-      "name": "D20",
-      "type": "library",
-      "nr": "20",
-      "text": "[h En helt vanlig tjugosidig tärning, också kallad [u D20].] \n Används i rollspel som detta..."
+      "name": "Två Vägar",
+      "type": "map",
+      "subtype": "karta",
+      "nr": "2",
+      "text": "Ni promenerar längs med en lång stig som klyver sig i två riktningar. Ni är oense om vilken väg som är bäst. Alla spelare försöker [C [v övertala] [n 1]] varandra.\n Den som slår högst får bestämma vilken väg ni ska utforska av A, B eller C."
     },
     {
-      "name": "Elektroniskt Ägg",
-      "type": "library",
-      "nr": "03",
-      "text": "[h Jag har ett mystiskt utomjordiskt objekt som spelar upp konstiga ljud.]] \n Det står [u Tamagotchi] på sidan."
+      "name": "Tågräls",
+      "type": "map",
+      "subtype": "karta",
+      "nr": "2",
+      "text": "Ni promenerar längs med en tågräls. Längre ner för rälsen kommer något rask fart. Det är ett stort spöktåg! De som vill kan försöka [S [v hoppa ] [n 12]] undan. De som står kvar känner spöktåget fara rakt igenom dem. Det var ingen fara. 'Ni blev väl inte skraja va?' De som står kvar får 3 popularitet."
+    },
+    {
+      "name": "Döda Trädet",
+      "type": "map",
+      "subtype": "karta",
+      "nr": "2",
+      "text": "Ni närmar er ett stort dött träd. Ni börjar höra röster som pratar på ett utomjordiskt språk. Men rösterna kommer inte från trädet, de kommer från er själva!\n Möt [L Hjärnruskaren].\n För varje tur Hjärnruskaren är i spel, gå ett extra steg med tidsmarkören."
     }
   ]
 }
